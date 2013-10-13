@@ -7,9 +7,9 @@ function create_player(pos, image)
 	go:add_component("CAlignable")
 	go:add_component("CColorable")
 	go:add_component("CAABoundingBox")
-	-- go:add_component("CGravity")
+	go:add_component("CGravity")
 	go:add_component("CPlayerController")
-	go:add_component("CPlatformCollision")
+	-- go:add_component("CPlatformCollision")
 	go:add_component("CSpriteRenderer")
 
 	go:get_component("CPositionable").position = pos
